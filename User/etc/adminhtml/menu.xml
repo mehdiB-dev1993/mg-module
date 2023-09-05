@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Netweb
+ * Created by:Mahdi Khani
+ * khaniii.mahdi@gmail.com
+ * 9/4/23
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Netweb_User::view" title="Netweb Users" module="Netweb_User" sortOrder="10" resource="Netweb_User::view"/>
+        <add id="Netweb_User::grid" title="Manage Users Records" module="Netweb_User" sortOrder="9" parent="Netweb_User::view" action="netwebusers/grid/index" resource="Netweb_User::grid"/>
+        <add id="Netweb_User::gridui" title="Manage Users Records Ui Component" module="Netweb_User" sortOrder="9" parent="Netweb_User::view" action="netwebusers/ui/index" resource="Netweb_User::gridui"/>
+    </menu>
+</config>

@@ -1,0 +1,16 @@
+<?php
+/**
+ * Netweb
+ * Created by:Mahdi Khani
+ * khaniii.mahdi@gmail.com
+ * 9/4/23
+ */
+?>
+
+<form action="<?= $this->getUrl('user-route/add_action/saveuser') ?>" method="post">
+    <label for="username">username : </label>
+    <input type="text" name="username">
+    <label for="password">password : </label>
+    <input type="text" name="password">
+    <input type="submit" value="save">
+</form>

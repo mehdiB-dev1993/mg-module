@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Netweb
+ * Created by:Mahdi Khani
+ * khaniii.mahdi@gmail.com
+ * 9/4/23
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+
+    <head>
+        <script src="Netweb_User::js/script.js" />
+    </head>
+
+    <body>
+        <referenceContainer name="content">
+            <block class="Netweb\User\Block\Adminhtml\Grid" name="grid_grid_listing"/>
+        </referenceContainer>
+    </body>
+</page>

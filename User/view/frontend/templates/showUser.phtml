@@ -1,0 +1,18 @@
+<?php
+/**
+ * Netweb
+ * Created by:Mahdi Khani
+ * khaniii.mahdi@gmail.com
+ * 9/4/23
+ */
+?>
+
+<table>
+    <tbody>
+    <?php foreach ($this->getUsers()->getData() as $key => $val): ?>
+        <tr>
+            <td><?= $val['username'] ?></td>
+        </tr>
+    <?php endforeach; ?>
+    </tbody>
+</table>
