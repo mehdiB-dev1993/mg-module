@@ -61,7 +61,7 @@ class Save extends \Magento\Backend\App\Action
                     if ($this->getRequest()->getParam('back') == 'add') {
                         return $resultRedirect->setPath('*/*/add');
                     } else {
-                        return $resultRedirect->setPath('*/*/edit', ['id' => $this->rhblog->getBlogId(), '_current' => true]);
+                        return $resultRedirect->setPath('*/*/edit', ['id' => $this->rhblog->getId(), '_current' => true]);
                     }
                 }
 
